@@ -1,27 +1,21 @@
-/****************************************************************************/
-/*             S A S   S A M P L E   L I B R A R Y                          */
-/*                                                                          */
-/*         NAME: logiex2                                                    */
-/*        TITLE: Example 2 for logistic action -- Modeling Binomial Data    */
-/*                                                                          */
-/*      PRODUCT: VIYA Statistics                                            */
-/*         KEYS: Logistic regression analysis,                              */
-/*               Binomial response data                                     */
-/*        PROCS: regression action set,logistic action                      */
-/*         DATA: Cox and Snell (1989, pp 10-11)                             */
-/*      SUPPORT: Bob Derr                                                   */
-/*         MISC:                                                            */
-/*                                                                          */
-/****************************************************************************/
-
 /*
-   The data, taken from Cox and Snell (1989, pp 10-11), consists of
-   the number, r, of ingots not ready for rolling, out of n tested,
-   for a number of combinations of heating time and soaking time.
-   A binomial logistic regression is performed using events/trials
-   syntax to fit a binary logit model to the grouped data.
-*/
+S A S   S A M P L E   L I B R A R Y
 
+    NAME: logiex2
+   TITLE: Example 2 for logistic action -- Modeling Binomial Data
+ PRODUCT: VIYA Statistics
+    KEYS: Logistic regression analysis,
+          Binomial response data
+   PROCS: regression action set,logistic action
+    DATA: Cox and Snell (1989, pp 10-11)
+    MISC:
+
+The data, taken from Cox and Snell (1989, pp 10-11), consists of
+the number, r, of ingots not ready for rolling, out of n tested,
+for a number of combinations of heating time and soaking time.
+A binomial logistic regression is performed using events/trials
+syntax to fit a binary logit model to the grouped data.
+*/
 
 data mycas.Ingots;
    input Heat Soak r n @@;

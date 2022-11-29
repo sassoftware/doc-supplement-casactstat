@@ -10,24 +10,20 @@
 /*     KEYS: Logistic regression analysis,                      */
 /*           Binary response data                               */
 /*    PROCS: regression action set; logisticScore action        */
-/*    DATA:  getStarted data from Example 1 of logistic action  */
+/*    DATA:                                                     */
 /* LANGUAGE: Lua                                                */
-/*                                                              */
-/*  SUPPORT: Bob Derr                                           */
 /*     MISC:                                                    */
 /*                                                              */
 /****************************************************************/
 
-/*****************************************************************
-Binary Logistic Regression
-*****************************************************************/
-
+/*
 The data consists of 100 observations on a dichotomous response
 variable y, a character variable C, and 10 continuous variables
 x1--x10.  A main effects binary logistic regression model is fit to
 these data, and the resulting model is stored.  The stored model is
 then used to produce predicted probabilities and other
 observationwise statistics for a new data table.
+*/
 --]]
 
 s:loadtable{casLib="casuser", path="getStarted.csv"}

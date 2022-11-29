@@ -11,15 +11,9 @@
 /*    PROCS: regression action set; logisticScore action        */
 /*    DATA:                                                     */
 /* LANGUAGE: PROC CAS                                           */
-/*                                                              */
-/*  SUPPORT: Bob Derr                                           */
 /*     MISC:                                                    */
 /*                                                              */
 /****************************************************************/
-
-/*****************************************************************
-Binary Logistic Regression
-*****************************************************************/
 
 /*
 The data consists of 100 observations on a dichotomous response

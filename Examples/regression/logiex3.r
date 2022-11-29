@@ -1,20 +1,19 @@
-#***************************************************************************/
-#             S A S   S A M P L E   L I B R A R Y                          */
-#                                                                          */
-#        NAME: logiex3                                                     */
-#        TITLE: Example 3 for logistic action -- Computing Odds Ratios     */
-#      PRODUCT: VIYA Statistics                                            */
-#         KEYS: Logistic regression analysis,                              */
-#               Binary response data                                       */
-#       PROCS: regression action set, logistic action                     */
-#         DATA: From Example 1 for the logistic action                     */
-#      SUPPORT: Bob Derr                                                   */
-#         MISC:                                                            */
-#                                                                          */
-#***************************************************************************/
+if(FALSE) {
+S A S   S A M P L E   L I B R A R Y
 
-# This example uses the data and selected model from the Binary
-# Logistic Regression example to demonstrate how to request odds ratios.
+    NAME: logiex3
+   TITLE: Example 3 for logistic action -- Computing Odds Ratios
+ PRODUCT: VIYA Statistics
+    KEYS: Logistic regression analysis,
+          odds ratios
+   PROCS: regression action set,logistic action
+    DATA: Cox and Snell (1989, pp 10-11)
+    MISC:
+
+This section uses the data and selected model from the Binary
+Logistic Regression example (logiex1.sas) to demonstrate how to
+request odds ratios.
+}
 
 cas.regression.logistic(s,
     display='oddsratios',

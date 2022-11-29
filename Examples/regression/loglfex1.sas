@@ -17,10 +17,6 @@
 /*                                                              */
 /****************************************************************/
 
-/*****************************************************************
-Binary Logistic Regression
-*****************************************************************/
-
 /*
 The data consists of 100 observations on a dichotomous response
 variable y, a character variable C, and 10 continuous variables

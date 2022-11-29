@@ -9,17 +9,11 @@
 /*     KEYS: Logistic regression analysis,                      */
 /*           Binary response data                               */
 /*    PROCS: regression action set; logisticAssociation action  */
-/*    DATA:  getStarted data from Example 1 of logistic action  */
+/*    DATA:                                                     */
 /* LANGUAGE: PROC CAS                                           */
-/*                                                              */
-/*  SUPPORT: Bob Derr                                           */
 /*     MISC:                                                    */
 /*                                                              */
 /****************************************************************/
-
-/*****************************************************************
-Binary Logistic Regression
-*****************************************************************/
 
 /*
 The data consists of 100 observations on a dichotomous response

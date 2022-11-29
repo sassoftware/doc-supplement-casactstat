@@ -1,26 +1,20 @@
-/****************************************************************************/
-/*             S A S   S A M P L E   L I B R A R Y                          */
-/*                                                                          */
-/*        NAME: logiex1                                                     */
-/*       TITLE: Example 1 for logistic action -- Binary Logistic Regression */
-/*                                                                          */
-/*     PRODUCT: VIYA Statistics                                             */
-/*        KEYS: Logistic regression analysis,                               */
-/*              Binary response data                                        */
-/*       PROCS: regression action set, logistic action                      */
-/*        DATA: generated                                                   */
-/*     SUPPORT: Bob Derr                                                    */
-/*        MISC:                                                             */
-/*                                                                          */
-/****************************************************************************/
-
 /*
-   The data consists of 1,000 observations on a dichotomous response
-   variable y, a character variable C, and 10 numeric variables
-   x1--x10.  A main effects binary logistic regression model is fit to
-   these data.
-*/
+S A S   S A M P L E   L I B R A R Y
 
+    NAME: logiex1
+   TITLE: Example 1 for logistic action -- Binary Logistic Regression
+ PRODUCT: VIYA Statistics
+    KEYS: Logistic regression analysis,
+          Binary response data
+   PROCS: regression action set, logistic action
+    DATA:
+    MISC:
+
+The data consists of 1,000 observations on a dichotomous response
+variable y, a character variable C, and 10 numeric variables
+x1--x10.  A main effects binary logistic regression model is fit to
+these data.
+*/
 
 proc cas;
 dataStep.runCode /
