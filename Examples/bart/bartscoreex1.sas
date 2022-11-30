@@ -7,8 +7,7 @@ S A S   S A M P L E   L I B R A R Y
     KEYS: BART
    PROCS: bart action set, bartScore action
     DATA:
- SUPPORT: Michael Lamm
-    MISC:
+     MISC:
 
 Used the modelFit store created in bartgaussex1 to score new
 data.

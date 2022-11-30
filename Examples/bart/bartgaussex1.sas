@@ -7,8 +7,7 @@ S A S   S A M P L E   L I B R A R Y
     KEYS: BART
    PROCS: bart action set, bartGauss action
     DATA:
- SUPPORT: Michael Lamm
-    MISC:
+     MISC:
 
 The data consists of 10,000 observations on a dichotomous response
 variable y and 40 numeric variables x1--x10. A model is fit to the

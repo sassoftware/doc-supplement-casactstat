@@ -9,7 +9,6 @@
 /*   PROCS: kclus                                              */
 /*    DATA:                                                    */
 /*                                                             */
-/* SUPPORT: Ilknur Kabul                                       */
 /*     REF:                                                    */
 /*    MISC:                                                    */
 /*                                                             */

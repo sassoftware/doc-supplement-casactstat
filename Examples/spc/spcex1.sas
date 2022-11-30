@@ -8,7 +8,6 @@
 /*    KEYS: Exception Summary                                   */
 /*   PROCS: spc action set                                      */
 /*    DATA:                                                     */
-/* SUPPORT: Bucky Ransdell                                      */
 /*                                                              */
 /****************************************************************/
 

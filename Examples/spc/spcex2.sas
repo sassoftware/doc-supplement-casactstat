@@ -8,7 +8,6 @@
 /*    KEYS: Tests for Special Causes                            */
 /*   PROCS: spc action set                                      */
 /*    DATA:                                                     */
-/* SUPPORT: Bucky Ransdell                                      */
 /*                                                              */
 /****************************************************************/
 

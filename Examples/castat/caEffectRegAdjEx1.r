@@ -7,8 +7,7 @@ S A S   S A M P L E   L I B R A R Y
     KEYS: caEffect
    PROCS: causalAnalysis action set, caEffect action
     DATA:
- SUPPORT: Michael Lamm
-    MISC:
+     MISC:
 
 Uses the birthwgt data set from the PROC CAUSALMED
 documentation. Fits an outcome model by using

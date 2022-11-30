@@ -7,8 +7,7 @@ S A S   S A M P L E   L I B R A R Y
     KEYS: BART
    PROCS: bart action set, bartScoreMargin action
     DATA:
- SUPPORT: Michael Lamm
-    MISC:
+     MISC:
 
 Uses the modelFit store created in bartgaussex1 and testData data
 table created in bartscoreex1 to compute predictive margins.

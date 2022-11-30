@@ -6,7 +6,6 @@
 /* PRODUCT: VIYA Statistics                                     */
 /*    KEYS: Segmented model                                     */
 /*   PROCS: nonlinear action set, nlmod action                  */
-/* SUPPORT: Raghavendra Rao Kurada (Raghu)                      */
 /*                                                              */
 /****************************************************************/
 

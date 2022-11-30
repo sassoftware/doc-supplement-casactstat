@@ -9,7 +9,6 @@
 /*   PROCS: simSystem, regression, simple action sets           */
 /*    DATA:                                                     */
 /*                                                              */
-/* SUPPORT: saswgr                                              */
 /*    MISC:                                                     */
 /****************************************************************/
 

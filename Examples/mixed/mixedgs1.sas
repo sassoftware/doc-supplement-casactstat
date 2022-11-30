@@ -11,7 +11,6 @@
 /* LANGUAGE: PROC CAS                                           */
 /*    DATA:                                                     */
 /*                                                              */
-/* SUPPORT: Tianlin Wang                                        */
 /*     REF:  Stroup (1989).                                     */
 /*    MISC:                                                     */
 /*                                                              */

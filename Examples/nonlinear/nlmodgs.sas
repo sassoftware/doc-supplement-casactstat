@@ -6,7 +6,6 @@
 /* PRODUCT: VIYA Statistics                                     */
 /*    KEYS: Nonlinear regression, Enzyme reaction model         */
 /*   PROCS: nonlinear action set, nlmod action                  */
-/* SUPPORT: Raghavendra Rao Kurada (Raghu)                      */
 /*    MISC: Estimating the Parameters in the Nonlinear Model    */
 /*                                                              */
 /****************************************************************/

@@ -9,7 +9,6 @@
 /*   PROCS: kclus                                              */
 /*    DATA:                                                    */
 /*                                                             */
-/* SUPPORT: Yingjian Wang                                      */
 /*     REF:                                                    */
 /*    MISC:                                                    */
 /*                                                             */

@@ -7,8 +7,7 @@ S A S   S A M P L E   L I B R A R Y
     KEYS: caEffect
    PROCS: causalAnalysis action set, caEffect action
     DATA:
- SUPPORT: Michael Lamm
-    MISC:
+     MISC:
 
 Uses the SmokingWeight data set from the PROC CAUSALTRT
 documentation. Fits a propensity score model by using

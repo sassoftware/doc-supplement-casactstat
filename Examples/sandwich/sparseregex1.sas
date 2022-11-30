@@ -11,7 +11,6 @@
 /*  PROCS: sparse regresion action set; sparse regression action*/
 /*    DATA:                                                     */
 /* LANGUAGE: PROC CAS                                           */
-/*  SUPPORT: Min Zhu                                            */
 /*    MISC:                                                     */
 /****************************************************************/
 

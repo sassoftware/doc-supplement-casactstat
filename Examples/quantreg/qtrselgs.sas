@@ -15,7 +15,6 @@
 /*    PROCS: quantreg action set; quantreg action                */
 /* LANGUAGE: PROC CAS                                            */
 /*                                                               */
-/*  SUPPORT: Yonggang Yao                                        */
 /*     MISC:                                                     */
 /*                                                               */
 /*****************************************************************/
