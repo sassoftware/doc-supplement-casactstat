@@ -1,4 +1,4 @@
-
+/*
 S A S   S A M P L E   L I B R A R Y
 
     NAME: bartscoreex1
@@ -11,7 +11,7 @@ S A S   S A M P L E   L I B R A R Y
 
 Uses the modelFit store created in bartgaussex1 and testData data
 table created in bartscoreex1 to compute predictive margins.
-
+*/
 
 proc cas;
 bart.bartScoreMargin /

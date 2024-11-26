@@ -1,4 +1,4 @@
-
+/*
 S A S   S A M P L E   L I B R A R Y
 
     NAME: bartgaussex1
@@ -12,7 +12,7 @@ S A S   S A M P L E   L I B R A R Y
 The data consists of 10,000 observations on a dichotomous response
 variable y and 40 numeric variables x1--x10. A model is fit to the
 data and an astore is created for use in subsequent examples.
-
+*/
 
 proc cas;
 dataStep.runCode /

@@ -1,4 +1,4 @@
-
+/*
 S A S   S A M P L E   L I B R A R Y
 
     NAME: bartscoreex1
@@ -11,7 +11,7 @@ S A S   S A M P L E   L I B R A R Y
 
 Used the modelFit store created in bartgaussex1 to score new
 data.
-
+*/
 
 proc cas;
 dataStep.runCode /
