@@ -38,6 +38,28 @@ data mycas.sample;
       Serves as the basis for innovation causing revenue growth.         | 16
 run;
 
+data mycas.en_stoplist;
+   length Term $16;
+   input Term;
+   datalines;
+about
+and
+are
+as
+between
+for
+from
+in
+is
+of
+or
+than
+the
+this
+to
+with
+;
+
 proc cas;
    textParse.tpParse /
       table='sample'
