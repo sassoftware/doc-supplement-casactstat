@@ -55,14 +55,16 @@ data mycas.analysisData / sessref=mysess single=no;
        if  rand('UNIFORM') < 0.4 then byVar='A';
                                  else byVar='B';
 
-       c1 = 1 + mod(id,8);
+       c1 = rand('TABLE',.125,.125,.125,.125,.125,.125,.125,.125);
        c2 = rand('BERNOULLI',0.6);
 
-       if      id < (0.001 * &nTotalObs) then do; c3 = 'tiny';     c3Num=1;end;
-       else if id < (0.3   * &nTotalObs) then do; c3 = 'small';    c3Num=1;end;
-       else if id < (0.7   * &nTotalObs) then do; c3 = 'average';  c3Num=2;end;
-       else if id < (0.9   * &nTotalObs) then do; c3 = 'big';      c3Num=3;end;
-       else                                   do; c3 = 'huge';     c3Num=5;end;
+       flag = rand('TABLE',.2,.2,.2,.2,.2);
+
+       if      flag=1   then do; c3 = 'tiny';     c3Num=1;end;
+       else if flag=2   then do; c3 = 'small';    c3Num=2;end;
+       else if flag=3   then do; c3 = 'average';  c3Num=3;end;
+       else if flag=4   then do; c3 = 'big';      c3Num=4;end;
+       else                  do; c3 = 'huge';     c3Num=5;end;
 
        yTrue = 10 + x1 + 2*x5 + 3*x10 + 4*x20  + 3*x1*x7 + 8*x6*x7
                   + 5*c3Num   + 8*(c1=7) + 8*(c1=3)*c2;
